@@ -1,0 +1,32 @@
+.c {text-align: center;}
+.l {text-align: left;}
+.r {text-align: right;}
+.h {display: none;}
+.n {white-space: nowrap}
+.u {text-decoration: underline;}
+.b {font-weight:bold;}
+.center{text-align: center;}
+.left{text-align: left;}
+.right{text-align: right;}
+.float_left{float: left;}
+.float_right{float: right;}
+.clear{clear: both;}
+label{cursor: pointer}
+.diff_log_contents{margin: 3px 0;padding: 3px 0;white-space: nowrap;}
+.diff_log_header{margin-bottom: 3px;padding: 3px;}
+.diff_log_option{width: 200px;}
+.diff_log_history{padding-left: 3px;}
+#edit_assist div{padding: 0;margin: 0;}
+#edit_assist > div{display:block;position: relative;float: left;margin-right: 3px;}
+#edit_assist > div > div{position: absolute;display: none;padding: 0;margin: 0;}
+#edit_assist button{overflow: visible;font: 12px sans-serif;letter-spacing: 0.01em;padding: 3px 5px;margin: 0;text-align: left;cursor: pointer;}
+#edit_assist button,  x:-moz-any-link, x:default{padding: 1px 2px;}
+#edit_assist > div > div > button{top: -1px;border-top: 0px;}
+#edit_assist button > span,#edit_assist button{margin: 0;display: block;position: relative;white-space: nowrap;}
+.w100{width: 100%;}
+span.paraedit{width: 9px; height: 9px;background: url("http://wf.in/image/common/plus/paraedit.png") no-repeat; vertical-align:middle; float:left; display: block; margin: 2px 2px 0 0;}
+span.miniadd{width: 9px; height: 9px;background: url("../../image/common/plus/mini_add.png") no-repeat; vertical-align:middle; float:left; display: block; margin: 2px 2px 0 0;}
+#jqContextMenu{display:none;position:absolute;z-index:500}
+#jqContextMenu > ul{list-style:none;margin:0;padding:1px}
+#jqContextMenu > ul > li{display:block;cursor:default;background-color:transparent;margin:0;padding:0}
+#jqContextMenu > ul > li > a{display:block;text-decoration:none;}
